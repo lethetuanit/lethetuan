@@ -9,7 +9,7 @@ namespace WebMVC.Models
     public class Account
     {
         [Key] // Khóa chính tự tăng
-        public int Id { get; set; }
+        public int Ids { get; set; }
 
         [Required(ErrorMessage = "Vui lòng nhập tên đăng nhập")]
         [StringLength(50)]
